@@ -9,7 +9,7 @@
   tags:
     - privacy
     - telemetry
-    
+
 - name: Telemetry (2/16)
   win_regedit:
     path: HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection
@@ -161,7 +161,7 @@
   tags:
     - privacy
     - telemetry
-    
+
 - name: Wi-Fi Sense (1/4)
   win_regedit:
     path: HKLM:\SOFTWARE\Microsoft\PolicyManager\default\WiFi\AllowWiFiHotSpotReporting
@@ -171,7 +171,7 @@
   tags:
     - privacy
     - wifisense
-    
+
 - name: Wi-Fi Sense (2/4)
   win_regedit:
     path: HKLM:\SOFTWARE\Microsoft\PolicyManager\default\WiFi\AllowAutoConnectToWiFiSenseHotspots
@@ -249,7 +249,7 @@
 
 - name: Web Search (3/3)
   win_regedit:
-    path: "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Search"
+    path: 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Search'
     name: DisableWebSearch
     type: dWord
     data: 1
@@ -257,7 +257,7 @@
   tags:
     - privacy
     - websearch
-    
+
 - name: App suggestions (1/18)
   win_regedit:
     path: HKCU:\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager
@@ -414,6 +414,3 @@
   tags:
     - privacy
     - appsuggestions
-
-
-
