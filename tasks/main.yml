@@ -1,0 +1,4 @@
+---
+# tasks file for windows-initial-setup
+
+- include: privacy-tweaks.yml
